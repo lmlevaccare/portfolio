@@ -1,38 +1,131 @@
-.App {
+
+* {
+  font-size: 25px;
+  font-family:"Open Sans Condensed, sans-serif";
+  margin-top: 0mm;
+  
+
+
+}
+
+
+.container{
+  text-align: center;
+  font-family:"Open Sans Condensed, sans-serif";
+  background-attachment: fixed;
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  justify-content: end;
+}
+
+
+.background, html, body{
+    /* background-image: url('./images/homemed.png'); */
+    background-image: url('./images/blueaBSTACT.jpeg');
+    background-blend-mode: multiply;  
+    height: 100%;
+    font-weight: bolder;
+}
+img{
+  box-shadow: rgb(98, 87, 99);
+ 
+}
+p{
+  margin-left: 38px;
+  font-size: 35px;
+}
+.d-block {
+width: 250;
+height: 400;
+}
+.cards {
+  margin-left: 20px;
+  margin-right: 20px;
+ padding-top:25px;
+}
+
+
+h1{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+font-size: 20px;
+font-family:"Open Sans Condensed, sans-serif";
+text-align: center;
 }
+h3 {
+text-align: center;
+border: black;
+font-size: 20px;
+padding-top: 15px;
+font-family:"Open Sans Condensed, sans-serif";
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h4{
   color: white;
+  font-size: 20px;
+  /* font-style: italic; */
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  text-align: center;
+  /* background-color: rgb(245, 206, 245); */
 }
+.typescript{
+  text-align: center;
+  margin-top: 30px;
+  text-align: center;
+  
+  
+}
+span{
+  font-size: 35px;
+  
+}
+.portfoliologo{
+  padding-top: 25px;
+}
+.wrapper {
+  padding-top: 50px;
+  color:white;
+ background-color:white;
+  height: 100%;
+  /* display: flex; */
+  /* flex-flow: row wrap; */
+  padding: 20px;
+  /* justify-content: space-around; */
+  margin-left: auto;  
+margin-right: auto; 
+  /* align-content: flex-start;
+  overflow: auto; */
+}
+.d-block{
+  margin-top: 30px;
+  padding-right: 90px;
+  margin-left: auto;  
+margin-right: auto;  
+  padding-left:90px;
+  height: 450px;
+ text-align: center;  
+
+
+}
+.navbar {
+  background-color:white;
+  color: white
+   
+};
+
+.work{
+     background-image: url();
+}
+.fixed-bottom{
+color: white;
+  text-align: center;
+}
+/* bg{
+   background-color: dimgray;
+} */
