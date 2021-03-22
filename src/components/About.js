@@ -17,7 +17,7 @@ export default function MediaCard() {
 
     return (
       <Media>
-        <img
+        {/* <img
           style={{
             marginTop: "85px",
             paddingTop: "20px",
@@ -32,13 +32,15 @@ export default function MediaCard() {
           alt="271x380"
           src={headshot}
           alt="Generic placeholder"
-        />
+        /> */}
         <Media.Body>
           <h1
             style={{
               color: "white",
               float: "left",
               textShadow: "3px 3px 3px violet",
+              marginLeft: "25px",
+              marginTop: "20px"
             }}
           >
             About.Me
